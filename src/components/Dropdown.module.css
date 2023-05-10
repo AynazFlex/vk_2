@@ -1,0 +1,46 @@
+.wrapper {
+    position: relative;
+    color: black;
+    cursor: pointer;
+    width: 500px;
+}
+
+.wrapper__active {
+    z-index: 1;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.input>div {
+    transition: 300ms;
+}
+
+.input__open {
+    transform: rotate(180deg)
+}
+
+.list {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 10px);
+    width: 100%;
+    border: 2px solid black;
+}
+
+.list>span {
+    display: block;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.list>span:hover {
+    background-color: rgb(213, 213, 213)
+}
