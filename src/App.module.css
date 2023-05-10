@@ -45,3 +45,10 @@
 .reset {
   background-color: red;
 }
+
+.date,
+.time {
+  font-size: inherit;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
